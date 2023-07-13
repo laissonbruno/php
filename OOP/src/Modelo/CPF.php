@@ -1,6 +1,8 @@
 <?php
 
-class CPF
+namespace Banco\Modelo;
+
+final class CPF
 {
     private $numero;
 
@@ -19,7 +21,7 @@ class CPF
         $this->numero = $numero;
     }
 
-    public function recuperaNumero(): string
+    public function recuperarNumero(): string
     {
         return $this->numero;
     }
