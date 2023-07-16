@@ -7,7 +7,7 @@ use Banco\Modelo\CPF;
 use Banco\Modelo\Funcionario\{Diretor, Gerente, Desenvolvedor};
 
 $umFuncionario = new Desenvolvedor(
-    'Vinicius Dias',
+    'Laisson',
     new CPF('123.456.789-10'),
     1000
 );

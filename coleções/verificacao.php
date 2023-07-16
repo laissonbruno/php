@@ -27,7 +27,7 @@ if (is_array($notas)) {
     echo 'sim, é um array'.PHP_EOL;
 }
 var_dump(array_is_list($notas));
-var_dump(array_key_exists('Vinicius', $notas));
-var_dump(isset($notas['vinicius']));
+var_dump(array_key_exists('Laisson', $notas));
+var_dump(isset($notas['Laisson']));
 var_dump(in_array(10, $notas));
 var_dump(array_search(10, $notas));
